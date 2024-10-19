@@ -5,8 +5,8 @@ This repository contains an Apex class that counts how many child custom objects
 ## Structure
 - `TaskCallsCounter.cls` - The main class with the logic for counting related `Calls` and updating the `Task` object.
 - `TaskCallsCounterTest.cls` - The test class to validate the functionality.
-- `Call__c.object` - Placeholder for the Call custom object metadata (to be replaced with your actual object metadata).
-- `Task.object` - Placeholder for the Task object metadata (to be replaced with your actual object metadata).
+- `Call__c.object` - Placeholder for the Call custom object metadata.
+- `Task.object` - Placeholder for the Task object metadata.
 
 ## Usage
 - Use `countRelatedCalls` to retrieve the number of Calls associated with a specific Task.
